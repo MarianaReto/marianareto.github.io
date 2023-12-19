@@ -17,7 +17,7 @@
       </v-col>
       <v-col cols="6">
         <v-row class="justify-center">
-          <v-img height="300" src="@/assets/logo.svg"/>
+          <v-img height="300" src="@/assets/portrait.png"/>
         </v-row>
       </v-col>
     </v-row>
