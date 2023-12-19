@@ -1,69 +1,42 @@
-# base
+# Vuetify Portfolio Page
 
-## Project setup
+## Overview
 
-```
-# yarn
-yarn
+This project is a personal portfolio page built with Vue.js and Vuetify. It showcases my skills, projects, and
+experiences as a developer.
 
-# npm
-npm install
+## Installation
 
-# pnpm
-pnpm install
+1. Clone the repository:
+    ```shell
+    git clone https://github.com/MarianaReto/marianareto.github.io.git
+    ```
+2. Navigate to the project directory:
+    ```shell
+    cd portfolio
+    ```
+3. Install the dependencies:
+    ```shell
+    npm install
+    ```
 
-# pnpm
-bun install
-```
+## Usage
 
-### Compiles and hot-reloads for development
+To start the development server, run:
 
-```
-# yarn
-yarn dev
+   ```shell
+   vite build
+   ```
 
-# npm
-npm run dev
+   ```shell
+   vite preview
+   ```
 
-# pnpm
-pnpm dev
+Then, open your browser and navigate to `http://localhost:3000`.
 
-# bun
-bun run dev
-```
+## Features
 
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# bun
-bun run build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-
-# bun
-bun run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+- **About Me**: A section providing a brief introduction about myself.
+- **Skills**: A section listing my technical skills.
+- **Projects**: A section showcasing my projects with links to GitHub repositories.
+- **Contact**: A section with my contact information and a form to reach out to me.
