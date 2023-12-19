@@ -10,11 +10,11 @@
                 <v-list dense>
                   <v-list-item  @click="dialNumber('+351967091676')">
                     <v-icon>mdi-phone</v-icon>
-                    🇵🇹: +1234567890
+                    🇵🇹: +351967091676
                   </v-list-item>
                   <v-list-item @click="dialNumber('+310648786936')">
                     <v-icon>mdi-phone</v-icon>
-                    🇳🇱: +0987654321
+                    🇳🇱: +310648786936
                   </v-list-item>
                   <v-list-item @click="sendEmail('marianareto99@gmail.com')">
                     <v-icon>mdi-email</v-icon>
