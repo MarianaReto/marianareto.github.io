@@ -14,7 +14,7 @@
         <router-link to="/skills">Skills</router-link>
       </v-tab>
       <v-tab>
-        <router-link to="/works">Works</router-link>
+        <router-link to="/projects">Projects</router-link>
       </v-tab>
       <v-tab>
         <router-link to="/contact">Contact Me</router-link>
