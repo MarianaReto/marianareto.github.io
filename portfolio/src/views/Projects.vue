@@ -2,31 +2,40 @@
   <v-app>
     <v-main>
       <v-container>
-        <v-card class="mb-5" v-for="project in otherProjects" :key="project.title">
-          <v-card-title>{{ project.title }}</v-card-title>
-          <v-card-text>{{ project.description }}</v-card-text>
-          <v-card-actions v-if="project.sourceCodeUrl">
-            <v-btn color="primary" :href="project.sourceCodeUrl" target="_blank">View Source Code</v-btn>
-          </v-card-actions>
-          <v-card-actions>
-            <v-img :src="project.screenshotUrl" max-height="200" contain></v-img>
-          </v-card-actions>
-        </v-card>
-        <h2>University Projects</h2>
-        <v-card class="mb-5" v-for="project in universityProjects" :key="project.title">
-          <v-card-title>{{ project.title }}</v-card-title>
-          <v-card-text>{{ project.description }}</v-card-text>
-          <v-card-actions v-if="project.sourceCodeUrl">
-            <v-btn color="primary" :href="project.sourceCodeUrl" target="_blank">View Source Code</v-btn>
-          </v-card-actions>
-          <v-card-actions>
-            <v-img :src="project.screenshotUrl" max-height="200" contain></v-img>
-          </v-card-actions>
-        </v-card>
+        <v-row>
+          <v-col cols="12" sm="6" md="4" lg="3" v-for="project in otherProjects" :key="project.title">
+            <v-card class="mb-10">
+              <v-card-title>{{ project.title }}</v-card-title>
+              <v-card-text>{{ project.description }}</v-card-text>
+              <v-card-actions v-if="project.sourceCodeUrl">
+                <v-btn color="primary" :href="project.sourceCodeUrl" target="_blank">View Source Code</v-btn>
+              </v-card-actions>
+              <v-card-actions>
+                <v-img :src="project.screenshotUrl" max-height="200" contain></v-img>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+        </v-row>
+        <h2 class="my-5">University Projects</h2>
+        <v-row>
+          <v-col cols="12" sm="6" md="4" lg="3" v-for="project in universityProjects" :key="project.title">
+            <v-card class="mb-10">
+              <v-card-title>{{ project.title }}</v-card-title>
+              <v-card-text>{{ project.description }}</v-card-text>
+              <v-card-actions v-if="project.sourceCodeUrl">
+                <v-btn color="primary" :href="project.sourceCodeUrl" target="_blank">View Source Code</v-btn>
+              </v-card-actions>
+              <v-card-actions>
+                <v-img :src="project.screenshotUrl" max-height="200" contain></v-img>
+              </v-card-actions>
+            </v-card>
+          </v-col>
+        </v-row>
       </v-container>
     </v-main>
   </v-app>
 </template>
+
 
 <script>
 export default {
