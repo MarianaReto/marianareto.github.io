@@ -11,10 +11,7 @@ experiences as a developer.
     ```shell
     git clone https://github.com/MarianaReto/marianareto.github.io.git
     ```
-2. Navigate to the project directory:
-    ```shell
-    cd portfolio
-    ```
+2. Navigate to the project directory
 3. Install the dependencies:
     ```shell
     npm install
