@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height d-flex align-center">
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <v-row>
           <h1 class="text-h2 font-weight-bold">Hi,</h1>
         </v-row>
@@ -15,7 +15,7 @@
           <v-btn size="x-large" color="teal-darken-2" @click="goToContactPage">Contact Me</v-btn>
         </v-row>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6">
         <v-row class="justify-center">
           <v-img height="300" src="@/assets/portrait.png"/>
         </v-row>
@@ -24,7 +24,6 @@
     <div class="py-14"/>
   </v-container>
 </template>
-
 
 <script setup>
 import {useRouter} from 'vue-router';

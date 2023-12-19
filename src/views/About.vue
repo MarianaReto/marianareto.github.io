@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-col cols="12">
+      <v-col>
         <h1 class="display-2 font-weight-bold mb-3">Junior Developer</h1>
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12">
+      <v-col>
         <p style="text-align: justify;">
           I am a passionate junior developer with a diverse skill set.
           I have experience in C, Java, PHP, JavaScript, Python, and PostgresSQL.
@@ -17,13 +17,9 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12">
+      <v-col>
         <v-timeline>
-          <v-timeline-item
-            color="green"
-            fill-dot="green"
-            right
-          >
+          <v-timeline-item color="green" right>
             <template v-slot:opposite>
               <span>2017 - 2022</span>
             </template>
@@ -35,11 +31,7 @@
               </v-card-text>
             </v-card>
           </v-timeline-item>
-          <v-timeline-item
-            color="blue"
-            fill-dot
-            right
-          >
+          <v-timeline-item color="blue" right>
             <template v-slot:opposite>
               <span>2022 - Present</span>
             </template>
