@@ -59,6 +59,7 @@ a {
   color: white;
   text-decoration: none;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
